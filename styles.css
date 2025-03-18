@@ -51,7 +51,7 @@ body.chat-open {
   position: fixed;
   bottom: 60px;
   right: 20px;
-  height: 600px;
+  height: 500px;
   width: 360px;
   flex-direction: column;
   justify-content: space-between;
@@ -63,10 +63,11 @@ body.chat-open {
   height: 100%;
   bottom: 0;
   right: 0;
-  border-radius: 0;
+  border-radius: 20px 20px 0px 0px;
 }
 .chat-header {
   display: flex;
+  border-radius: 20px 20px 0px 0px;
   align-items: center;
   justify-content: space-between;
   background: #c00423;
