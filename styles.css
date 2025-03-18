@@ -50,7 +50,7 @@ body.chat-open {
   border-radius: 20px;
   position: fixed;
   bottom: 60px;
-  right: 20px;
+  right: 1.5%;
   height: 500px;
   width: 360px;
   flex-direction: column;
@@ -323,7 +323,7 @@ nav {
   align-items: center;
   gap: 2rem;
   background-color: var(--secondary-color);
-  transform: translateY(-100%);
+  transform: translateY(-120%);
   transition: 0.5s;
   z-index: -1;
 }
